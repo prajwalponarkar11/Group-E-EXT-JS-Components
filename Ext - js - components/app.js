@@ -1,16 +1,16 @@
 Ext.application({
-    name: 'MyApp', // Name of your application
+    name: 'MyApp', 
 
     launch: function() {
-        // This function is called when the application is launched
+       
 
-        // Create a simple Ext JS Panel
+       
         Ext.create('Ext.Panel', {
             title: 'Hello Ext JS',
             width: 300,
             height: 200,
-            floating: true, // The panel will float in the viewport
-            renderTo: Ext.getBody(), // Render the panel to the body
+            floating: true, 
+            renderTo: Ext.getBody(), 
             html: 'This is a simple Ext JS panel.',
             bodyPadding: 10,
             buttons: [
@@ -23,7 +23,7 @@ Ext.application({
             ]
         });
 
-        // Create a grid panel
+        
         Ext.create('Ext.grid.Panel', {
             title: 'Grid Panel Example',
             width: 600,
